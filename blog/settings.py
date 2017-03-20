@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'myblog',
 ]
+# INSTALLED_APPS += ( 'django_markdown', )
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

@@ -23,5 +23,6 @@ urlpatterns = [
     url(r'^index/', views.index),
     url(r'^single/', views.single),
     url(r'^archive/', views.archive),
-    url(r'^contact/', views.contact)
+    url(r'^contact/', views.contact),
+    # url('^markdown/', 'django_markdown.urls'),
 ]
