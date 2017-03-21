@@ -20,9 +20,9 @@ from myblog import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^index/', views.index),
-    url(r'^single/', views.single),
-    url(r'^archive/', views.archive),
-    url(r'^contact/', views.contact),
+    url(r'^index', views.index, name='index'),
+    url(r'^about/', views.about, name='about'),
+    url(r'^archive/', views.archive, name='archive'),
+    url(r'^contact/', views.contact, name='contact'),
     # url('^markdown/', 'django_markdown.urls'),
 ]
